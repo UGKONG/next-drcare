@@ -1,8 +1,8 @@
 import Styled from "styled-components";
-import Header from "../cmn/Header";
-import { GroupSchedule } from "../cmn/interface";
+import Header from "../../components/Header";
+import { GroupSchedule } from "../../public/interface";
 
-const ScheduleApp = ({ data }: { data: GroupSchedule[] }) => {
+export default function 스케줄({ data }: { data: GroupSchedule[] }) {
   return (
     <>
       <Header />
@@ -12,9 +12,7 @@ const ScheduleApp = ({ data }: { data: GroupSchedule[] }) => {
       </Container>
     </>
   );
-};
-
-export default ScheduleApp;
+}
 
 const Container = Styled.main`
   

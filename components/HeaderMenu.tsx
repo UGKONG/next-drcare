@@ -1,6 +1,7 @@
+import React from "react";
 import Styled from "styled-components";
 import Link from "next/link";
-import { Menu } from "./interface";
+import { Menu } from "../public/interface";
 import { useMemo } from "react";
 
 type Props = { data: Menu; path: string };

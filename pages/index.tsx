@@ -1,5 +1,6 @@
+import React from "react";
 import Styled from "styled-components";
-import Header from "./cmn/Header";
+import Header from "../components/Header";
 
 const HomeApp = () => {
   return (

@@ -1,8 +1,8 @@
 import Styled from "styled-components";
-import Header from "../cmn/Header";
-import { Member, Request } from "../cmn/interface";
+import Header from "../../components/Header";
+import { Member, Request } from "../../public/interface";
 
-const MemberDetailApp = ({ data }: { data: Member }) => {
+export default function 회원상세({ data }: { data: Member }) {
   console.log(data);
   return (
     <>
@@ -14,9 +14,7 @@ const MemberDetailApp = ({ data }: { data: Member }) => {
       </Container>
     </>
   );
-};
-
-export default MemberDetailApp;
+}
 
 const Container = Styled.main`
   

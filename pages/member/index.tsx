@@ -1,9 +1,9 @@
 import { useRouter } from "next/router";
 import Styled from "styled-components";
-import Header from "../cmn/Header";
-import { Member } from "../cmn/interface";
+import Header from "../../components/Header";
+import { Member } from "../../public/interface";
 
-const MemberApp = ({ data }: { data: Member[] }) => {
+export default function 회원({ data }: { data: Member[] }) {
   const router = useRouter();
 
   return (
@@ -16,9 +16,7 @@ const MemberApp = ({ data }: { data: Member[] }) => {
       </Container>
     </>
   );
-};
-
-export default MemberApp;
+}
 
 const Container = Styled.main`
   
