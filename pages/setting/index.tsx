@@ -1,16 +1,16 @@
 import Styled from "styled-components";
-import Header from "./cmn/Header";
+import Header from "../cmn/Header";
 
-const HomeApp = () => {
+const ScheduleApp = () => {
   return (
     <>
       <Header />
-      <Container>대시보드</Container>
+      <Container>설정</Container>
     </>
   );
 };
 
-export default HomeApp;
+export default ScheduleApp;
 
 const Container = Styled.main`
   
