@@ -1,13 +1,16 @@
 export interface Request {
   params: {
-    id?: string;
+    [key: string]: string;
   };
-  query: {};
+  query: {
+    [key: string]: string;
+  };
+  body: {};
 }
 
-export interface Response<T> {
+export interface ServerSideResponse<T> {
   props: {
-    data?: T;
+    data?: T | T[] | undefined | null;
   };
 }
 
