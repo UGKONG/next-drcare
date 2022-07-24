@@ -26,11 +26,11 @@ export interface Menu {
 }
 
 export interface Member {
-  USER_SQ?: number;
-  CENTER_SQ?: number;
-  CENTER_NM?: string;
-  USER_NM?: string;
-  USERID?: string;
+  USER_SQ: number;
+  CENTER_SQ: number;
+  CENTER_NM: string;
+  USER_NM: string;
+  USERID: string;
   GENDER?: string | null;
   USERHEIGHT?: number | null;
   PHONE_NO?: string | null;

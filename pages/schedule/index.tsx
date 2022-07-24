@@ -1,6 +1,6 @@
 import Styled from "styled-components";
 import Header from "../../components/Header";
-import { GroupSchedule } from "../../public/interface";
+import { GroupSchedule } from "../../public/types";
 
 export default function 스케줄({ data }: { data: GroupSchedule[] }) {
   return (

@@ -1,6 +1,6 @@
 import React, { useMemo, useRef } from "react";
 import Styled from "styled-components";
-import { ProgramName, Menu } from "../public/interface";
+import { ProgramName, Menu } from "../public/types";
 import HeaderMemu from "./HeaderMenu";
 import { useRouter } from "next/router";
 

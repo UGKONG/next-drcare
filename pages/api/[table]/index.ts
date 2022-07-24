@@ -1,6 +1,6 @@
 /* eslint-disable react-hooks/rules-of-hooks */
 import type { NextApiRequest, NextApiResponse } from "next";
-import { Request } from "../../../public/interface";
+import { Request } from "../../../public/types";
 import useDatabase from "../../../hooks/useDatabase";
 import useSuccess from "../../../hooks/useSuccess";
 import useFail from "../../../hooks/useFail";
